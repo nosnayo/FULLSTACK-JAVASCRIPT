@@ -1,0 +1,38 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    padding: 1px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*=========================Local================================*/
+.local {
+    padding: 20px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+/*=========================FOOTER================================*/
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #1b2a4e;
+    margin-top: 20px;
+    color:#f3f3f3;
+    text-align:center;
+}
+
+/*=========================STYLE POR ID==========================*/
+#button1 {
+    background-color: #22dfaa;
+    color: white;
+}
+
+#button2 {
+    background-color: #3615d8;
+    color: white;
+}
