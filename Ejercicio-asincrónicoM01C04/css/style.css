@@ -1,0 +1,40 @@
+/*=========================Body=================================*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background-image: url('../images/perrito.jpg');
+    background-size: 100rem;
+    color:#f3f3f3;
+}
+/*=========================Header================================*/
+.header {
+    padding: 1px;
+    font-size: 20px;
+    text-align: center;
+}
+/*=========================Local================================*/
+.local {
+    padding: 20px;
+    text-align: center;
+    margin-top: 2px;
+    color:#f3f3f3;
+}
+/*=====================STYLE ACEPTAR CONSULTA====================*/
+.fcc-btn {
+    background-color: #199319;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+} 
+.fcc-btn:hover {
+    background-color: #223094;
+}
+/*=========================FOOTER================================*/
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #1b2a4e;
+    margin-top: 20px;
+    color:#f3f3f3;
+}
+

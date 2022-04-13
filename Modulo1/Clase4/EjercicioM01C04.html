@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EjercicioM01C04</title>
+</head>
+<body>
+    <h1>Bienvenido a InstaPet</h1>
+    <p>Hola, esta es una web social, para hablar sobre mascotas</p>
+    <form method="POST" action="blabla">
+        <label>
+            Nombre de la mascota:
+            <input type="text" name="nombre" placeholder="Ponga el nombre de su mascota">
+        </label>
+        <br>
+        <label>
+            Edad de la mascota:
+            <input type="number" max="25" name="edad" placeholder="Edad de la mascota">
+        </label>
+        <br>
+        <label>
+            Correo Electrónico:
+            <input type="email" name="correo" placeholder="Poner correo electrónico">
+        </label>
+        <br>
+        <label>
+            Contraseña:
+            <input type="password" name="pass" placeholder="Poner contraseña">
+        </label>
+        <label>
+            Color de la mascota
+            <input type="color" name="colormascota" list="listadecolores">
+            <datalist id="listadecolores">
+                <option value="#00ffff"></option>
+                <option value="#ff00ff"></option>
+            </datalist>
+        </label>
+    </form>
+</body>
+</html>

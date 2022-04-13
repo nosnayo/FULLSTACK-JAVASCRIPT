@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="historia, arica, fin_de_semana"/>
+    <meta name="author" content="nelson-osnayo" />
+
+    <title>AsincronicoM01C04</title>
+    <link href="css/style.css" rel="stylesheet">
+
+<!-- Favicon -->
+	<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+</head>
+<body>
+<!--========================================================== -->
+                        <!-- SECCION HEADER-->
+<!--========================================================== -->
+    <div class="header">
+        <h1>Bienvenido a InstaPet</h1>
+        <p>Hola, esta es una web social, para hablar sobre mascotas</p>
+    </div>
+<!--========================================================== -->
+                        <!-- SECCION FORMULARIO -->
+<!--========================================================== -->
+<div class="local">
+    <div class="card tarjeta-registro">
+        <form method="POST" action="blabla">
+            <section>
+                <label>
+                    Nombre de la mascota:
+                    <input type="text" name="nombre" placeholder="Ponga el nombre de su mascota">
+                </label>
+                <br>
+                <label>
+                    Edad de la mascota:
+                    <input type="number" max="25" name="edad" placeholder="Edad de la mascota">
+                </label>
+                <br>
+                <label>
+                    Correo Electrónico:
+                    <input type="email" name="correo" placeholder="Poner correo electrónico">
+                </label>
+                <br>
+                <label>
+                    Contraseña:
+                    <input type="password" name="pass" placeholder="Poner contraseña">
+                </label>
+                <label>
+                    Color de la mascota
+                    <input type="color" name="colormascota" list="listadecolores">
+                    <datalist id="listadecolores">
+                        <option value="#00ffff"></option>
+                        <option value="#ff00ff"></option>
+                    </datalist>
+                </label>
+                <br>
+            </section>
+            <section>
+                <label>
+                    Consulta:
+                    <br>
+                    <form>
+                        <textarea name="comment" rows=5 cols=40>Introduzca aquí su consulta</textarea>
+                    </form>
+                    <br>
+                    <p><input style="opacity:1;" type="checkbox" data-required="1" name="terminos">Aceptar los <a style="color:blue;" href="#">Términos y Condiciones</a></p>
+                </label>
+            </section>
+            <br>
+            <a class="fcc-btn" href="index.html"> Desea Enviar Consulta  </a>
+        </form>
+        <br>
+        <br>
+<!--========================================================== -->
+                        <!-- SECCION ADICIONAL -->
+<!--========================================================== -->
+        <div>
+            <h3>ENCONTRANOS EN:</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3784.160459486837!2d-70.30314453527997!3d-18.476389587434717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sVeterinaria%20Limar%C3%AD%20-%20Avenida%20Diego%20Portales%2C%20Arica!5e0!3m2!1ses!2scl!4v1649812099970!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div>
+            <h3>NUESTRO VIDEO:</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/b0wBrIOxABk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+<!--========================================================== -->
+                        <!-- SECCION FOOTER-->
+<!--========================================================== -->
+    <div class="footer">
+        <h3>Ejercicio-asincrónicoM01C04 - N.O.C</h3>
+    </div>
+</body>
+</html>
