@@ -1,0 +1,42 @@
+.pandearriba{
+    width: 450px;
+    height: 70px;
+    background-color: #ECDC84;
+    position: relative;
+    top: 40px;
+    left: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    border-bottom-style: outset;
+    border-bottom-width: 8px;
+    border-bottom-color: #f36c3b;
+}
+
+.salchicha{
+    width: 500px;
+    height: 50px;
+    background: #AD4824;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    border-radius: 40px;
+}
+.pandeabajo{
+    width: 450px;
+    height: 70px;
+    background-color: #ECDC84;
+    position: relative;
+    top: 40px;
+    left: 60px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+
+    border-top-style: inset;
+    border-top-width: 8px;
+    border-top-color: #f36c3b;
+}
