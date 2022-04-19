@@ -1,0 +1,55 @@
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #1b2a4e;
+    margin-top: 20px;
+    color:#f3f3f3;
+}
+
+.slide {
+    margin-top: 10px;
+    text-align: center;
+    padding: 50px;
+
+    margin-bottom: 50px;
+}
+
+.slide img {
+    /*height: 65vh;*/
+    width: 150vh;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cards{
+    margin: 1.4%;
+    width: 30%;
+    display: inline-block;
+    background-color: #8ab3e9;
+    border: 1px solid #6f00ff;
+    padding: 1px;
+}
