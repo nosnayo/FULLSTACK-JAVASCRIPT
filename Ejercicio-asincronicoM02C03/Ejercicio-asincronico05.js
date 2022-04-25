@@ -30,10 +30,10 @@ function calcularJuego() {
             }
         }else{
             if(valor_usuario == 3){
-                alert("Maquina:[Piedra]" + "\tEscogio:[Tijera]\n" + "Piedra rompe a la Tijera, " + "!HA GANADOR, FELICITACIONES .. ¡\n\n" + "Puede Volver a Jugar"); 
+                alert("Maquina:[Piedra]" + "\tEscogio:[Tijera]\n" + "Piedra rompe a la Tijera, " + "!HA PERDIDO¡\n\n" + "Puede Volver a Jugar"); 
             }else{
                 if(valor_usuario == 2){
-                    alert("Maquina:[Piedra]" + "\tEscogio:[Papel]\n" + "Piedra es envuelta por el Papel, " + "!HA PERDIDO¡\n\n" + "Puede Volver a Jugar");
+                    alert("Maquina:[Piedra]" + "\tEscogio:[Papel]\n" + "Piedra es envuelta por el Papel, " + "!HA GANADOR, FELICITACIONES .. ¡\n\n" + "Puede Volver a Jugar");
                 }else{
                     alert("Maquina:[Piedra]" + "\tEscogio:[Piedra]\n" + "Piedra empata con Piedra, " + "!HA EMPATADO¡\n\n" + "Puede Volver a Jugar");
                 }
