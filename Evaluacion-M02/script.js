@@ -27,7 +27,7 @@ var palabraIngresada = document.querySelector("#text");
 let timeInterval = setInterval(actualizarTiempo, 1000);
 
 function gameOver(){
-    var titulo = "<h3>Te haz quedado sin Tiempo!</h3>";
+    var titulo = "<h3>Te has quedado sin Tiempo!</h3>";
     var parrafo = "<p>Tu puntaje Final es: " + score + "</p>";
     var boton = '<button onclick="location.reload()">Volve a empezar</button>';
     document.getElementById("end-game-container").innerHTML = titulo + parrafo + boton;
