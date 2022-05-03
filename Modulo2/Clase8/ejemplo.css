@@ -1,0 +1,15 @@
+.cambiarcolorfondo {
+    background-color: yellow;
+    color: red;
+    /*text-align: right;*/
+    font-size: 300%;
+}
+
+.cambiarcolorfondoclick {
+    background-color: aqua;
+    color: red;
+}
+
+.listaOrdenada {
+    color: blue;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página para aprender eventos</title>
+    <link rel="stylesheet" href="ejemplo.css">
+</head>
+<body>
+    <button onclick="alert('hola grupo Chillán')">Presióname</button>
+    <br>
+    <br>
+    <button onclick="alert('resultado')">Ver Resultado</button>
+    <br><br>
+    <button onmouseover="alert('resultado pasando el raton')">Solo acercar al botton</button>
+    <br><br>
+    <h1 onmouseover="alert('soy un alert en h1')">Alerta en H1</h1>
+
+    <!--LISTA QUE AL PRECIONAR CAMBIE DE COLOR-->
+    <ul class="lenguajes" >
+        <li>JavaScript</li>
+        <li>Scheme</li>
+        <li>Java</li>
+    </ul>
+    <br><br>
+
+    <!--FUNCIONALIDADES DE CAMBIO DE COLOR EN H1-->
+    <h1 id="destacado">Gloriaoso Equipo Arica</h1>
+
+    <!--LISTA ORDENADA QUE AL PRECIONAR CAMBIE DE COLOR-->
+    <ol id="listaordenada">
+        <li>Lista Ordenada N1</li>
+        <li>Lista Ordenada N2</li>
+        <li>Lista Ordenada N3</li>
+    </ol>
+
+    <script src="ejemplo.js"></script>
+</body>
+</html>
