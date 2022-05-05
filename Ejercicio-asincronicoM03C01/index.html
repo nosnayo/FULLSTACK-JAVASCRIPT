@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsincronicoM03C01</title>
+</head>
+
+<body>
+    <!--Titulos-->
+    <h1>Ejercicio M03C01</h1>
+    <div class="container">
+        <div class="main">
+            <h2>JavaScript Básico - Ejercicio asincrónico 01</h2>
+            <p id="libros"></p>
+            <form>
+                <label for="arreglo">Escoja su opcion de Filtro por Autor:</label>
+                <select name="autor" id="autor" required>
+                    <option value="Rosa María Herrera">Rosa María Herrera</option>
+                    <option value="Daniel Marchante Suárez">Daniel Marchante Suárez</option>
+                    <option value="Paulo Coelho">Paulo Coelho</option>
+                </select><br/><br/>       
+                <button type="button"  onclick="Libro.filtrarPorAutor()" class="btn btn-primary">Buscar Libros</button>
+            </form>
+            <br>
+            <div id="filtro"></div>
+        </div>
+    </div>
+<!--    <form onsubmit="sumArray()">
+        <label for="arreglo">Escoja su opcion para Testear suma Array:</label>
+        <select name="arreglo" id="arreglo" required>
+            <option value="1,2,3">sumArray([1,2,3])</option>
+            <option value="10,3,10,4">sumArray([10, 3, 10, 4])</option>
+            <option value="-5,100">sumArray([-5,100])</option>
+        </select><br/><br/>
+
+        <button type="submit" class="btn btn-primary">Calcular Suma Array</button>
+    </form>
+    <br><br>
+-->
+    <!-- Scripts JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

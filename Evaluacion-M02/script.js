@@ -21,7 +21,7 @@ const words = [
 ];
 
 var time = 10;
-var palabraAleatoria; 
+var palabraAleatoria;
 var score = 0;
 var palabraIngresada = document.querySelector("#text");
 let timeInterval = setInterval(actualizarTiempo, 1000);
@@ -76,4 +76,3 @@ palabraIngresada.addEventListener("keypress", function(e){
 
     //console.log(palabraAleatoria);
 })
-
