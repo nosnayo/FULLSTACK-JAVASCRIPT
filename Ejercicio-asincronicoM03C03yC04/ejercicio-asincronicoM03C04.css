@@ -1,0 +1,24 @@
+/*AsincronicoM03C03 - PARTE 2*/
+body{
+    background-color: #5a50e3;
+    text-align: center;
+    padding: 5%;
+}
+
+.container {
+    text-align: center;
+}
+
+.button {
+    background-color: #ededed8d;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+.chiste {
+    text-align: center;
+    padding: 10px;
+    border: 2px black dashed;
+}
+
