@@ -1,0 +1,67 @@
+.square {
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: #63c5e8;
+    margin: 1%;
+    border-radius: 10%;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+body{
+    background-color: #232323;
+}
+
+/*Style para el encabezado del Juego*/
+h1 {
+    color: white;
+    text-align: center;
+    background: rgb(70, 130, 180);
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#colorDisplay{
+    display: block;
+    font-size: 200%
+}
+
+#stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+.selected{
+    background: steelblue;
+    color: white
+}
+
+button {
+    border: none;
+    background-color: inherit;
+    text-transform: uppercase;
+    /*Mayuscula*/height:100%;
+    font-weight: 1000;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.4s;
+    outline: none;
+}
+
+button:hover{
+    color: white;
+    background: steelblue
+  }
+
+  #message{
+    display: inline-block;
+    width:30%
+  }
