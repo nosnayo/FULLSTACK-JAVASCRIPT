@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+  <h3><p>Ingresar Pokemon</p></h3>
+  <!--Accion de formulario-->
+  <form action="ingresarPokemonAction" method="post">
+    Ingrese número de su nuevo pokemon:
+    <input type="number" name="numeroPokemon" size="2"><br>
+    Ingrese el nombre de su nuevo pokemon:
+    <input type="text" name="nombrePokemon" size="50"><br>
+    Ingrese el tipo de su nuevo pokemon:
+    <input type="text" name="tipoPokemon" size="50"><br>
+    <br>
+    <input type="submit" value="Ingresar Pokemon">
+    <br>
+  </form>
+  <br>
+  <button type="button" value="Mostrar pokemones" onclick="location.href='mostrarPokemonesAction'">Mostrar Pokemones</button>
+  <a href="mostrarPokemonesAction">Ver pokemones</a>    
+
+  <!--script src="appRegion.js"></script-->
+</body>
+</html>
